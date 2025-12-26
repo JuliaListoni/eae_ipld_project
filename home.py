@@ -21,7 +21,7 @@ def home_page():
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Enric</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Julia Rezende</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
@@ -40,11 +40,11 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Master's student of Big Data and Analytics"   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
-    st.write("##")    # Adding some space
+    st.write("##")    # Adding some space   
 
 
     # ----- About me section -----
@@ -52,17 +52,15 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a ML Eng that you are doing
+    - 🧑‍💻 Previous education: Business major with a completed MBA
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - 🛩️ Previous experience in Business Research 
 
-    - ❤️ <Your Passion and/or Interests>
+    - ❤️ Passionate about Data analysis and consumer behaviour 
 
-    - 🤖 <Your Personal Projects>
+    - 🏂 Hobbies: travelling, playing beach sports, reading
 
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: julia.listonir@gmail.com
 
     - 🏠 Barcelona
     """)
@@ -78,3 +76,4 @@ pg = st.navigation([
     st.Page("pages/03_temperatures_dashboard.py", title="Temperatures Dashboard", icon="🌦️"),
 ])
 pg.run()
+
